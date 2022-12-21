@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(0, 255, 183);
+}
+.imgBox{
+    background-image: url('mySS.png');
+    position: relative;
+    height: 346px;
+    width: 316px;
+    object-fit: cover;
+    top: 5px;
+    left: 7pxs;
+    cursor: pointer;
+    margin: auto 5px;
+    
+}
+.whiteBox{
+    height: 358px;
+    object-fit: cover;
+    width: 23%;
+    background-color: white;
+    margin: 5px;
+    display: inline-block;
+
+}
+
+.hold{
+    border: solid red 4px;
+}
+.hide{
+    display: none;
+}
+.dashed{
+    border-style: dotted;
+    background: rgb(163, 142, 197);
+}
